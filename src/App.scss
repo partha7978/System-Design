@@ -1,0 +1,20 @@
+.main__container {
+  height: 100%;
+  width: 100%;
+
+  .title__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: var(--gradient-bg-color-combo-1);
+    background: var(--gradient-bg-color-combo-2);
+    background: var(--gradient-bg-color-combo-3);
+    
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+  }
+}
